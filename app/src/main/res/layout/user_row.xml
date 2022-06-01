@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/cardview_shadow_start_color">
+
+    <TextView
+        android:id="@+id/rcTvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AHMET"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/rcTvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/rcTvHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="178"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"></TextView>
+
+</LinearLayout>
